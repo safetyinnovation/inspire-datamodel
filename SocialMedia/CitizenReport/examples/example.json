@@ -1,6 +1,7 @@
 {
     "id": "urn:ngsi-ld:CitizenReport:508578829",
     "type": "CitizenReport",
+    "sender": "tg:435645654",
     "attachments": {
         "type": "StructuredValue",
         "value": [
@@ -15,33 +16,12 @@
         ],
         "metadata": {}
     },
-    "furtherCommunication": {
+    "answer": {
         "type": "StructuredValue",
-        "value": [
-            {
-                "direction": "A2C",
-                "dateSent": "2020-06-04T14:18:34.00Z",
-                "attachment": {
-                    "attachmentType": "TEXT",
-                    "text": "Senden Sie uns bitte noch ein Foto von der Treppe zu"
-                }
-            },
-            {
-                "direction": "C2A",
-                "dateSent": "2020-06-04T14:21:34.00Z",
-                "attachment": {
-                    "attachmentType": "IMAGE",
-                    "URL": "https://example.com/0354c27d-1161-4367-bb81-3dc9b50c34c3_file_79.jpg"
-                }
-            },
-            {
-                "direction": "A2C",
-                "attachment": {
-                    "attachmentType": "TEXT",
-                    "text": "Vielen Dank!"
-                }
-            }
-        ],
+        "value": {
+            "dateSent": "2020-06-04T14:18:34.00Z",
+            "text": "Bitte noch ein Foto zusätzlich schicken"
+        },
         "metadata": {}
     },
     "dateCreated": {

@@ -1,6 +1,6 @@
 # CitizenReport
 
-This entity contains a harmonised description of a report send by a citizen via electronic media (i.e. Telegram) and potential further communication between the recipient and the sender.
+This entity contains a harmonised description of a report send by a citizen via electronic media (i.e. Telegram) and a potential answer by the authorities.
 
 ## Data Model
 
@@ -10,7 +10,7 @@ This entity contains a harmonised description of a report send by a citizen via 
 
 - `dateCreated`
 
-- `sender`: URI identifying the sender (e.g. `telegram:xyz`)
+- `sender`: URI identifying the sender (e.g. `tg:xyz`)
 
 - `attachments`
   - Type: `structuredValue`
@@ -21,13 +21,10 @@ This entity contains a harmonised description of a report send by a citizen via 
       - "IMAGE": additional property `url` containing a URL to the image
       - "VIDEO" additional property `url` containing a URL to the image
 
-- `furtherCommunication`
+- `answer` (Optional)
   - Type: `structuredValue`
-  - Format per communication:
-    - `direction`: Either `C2A` or `A2C`
-    - `dateReceived`: If `direction` is `C2A`, the timestamp when the communication was received
-    - `dateSent`: If `direction` is `A2C`, the timestamp when the communication was sent to the citizen
-    - `attachment`: One attachment per communication according to the attachment specification
+  - `dateSent`: The timestamp when the communication was actually sent to the citizen, non existent if not sent yet
+  - `text`: Text sent by the authorities
 
 - `location`
 
