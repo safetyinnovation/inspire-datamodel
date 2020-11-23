@@ -19,7 +19,8 @@ This entity contains a harmonised description of a report send by a citizen via 
     - `attachmentType`:
       - "TEXT": additional property `text` containing the user-supplied text
       - "IMAGE": additional property `url` containing a URL to the image
-      - "VIDEO" additional property `url` containing a URL to the image
+      - "VIDEO": additional property `url` containing a URL to the image
+      - "VIDEO" addtional property `extra`, containing addtional information e.g. a thumbnail url
 
 - `answer` (Optional)
   - Type: `structuredValue`
