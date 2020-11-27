@@ -1,0 +1,71 @@
+[
+  {
+      "id": "urn:ngsi-ld:EmergencyVehicle:508579248",
+      "type": "EmergencyVehicle",
+      "assignedToMission": {
+          "type": "Relationship",
+          "value": "urn:ngsi-ld:Alert:urn:ngsi-ld:Alert:116",
+          "metadata": {}
+      },
+      "baseStation": {
+          "type": "Relationship",
+          "value": "urn:ngsi-ld:EmergencyStation:12345",
+          "metadata": {}
+      },
+      "category": {
+          "type": "StructuredValue",
+          "value": [
+              "public",
+              "specialUsage"
+          ],
+          "metadata": {}
+      },
+      "deploymentStatus": {
+          "type": "Number",
+          "value": 1,
+          "metadata": {}
+      },
+      "description": {
+          "type": "Text",
+          "value": "HLF 20 Feuerwehr Paderborn",
+          "metadata": {}
+      },
+      "fleetVehicleId": {
+          "type": "Text",
+          "value": "Florian Paderborn HLF 20 1",
+          "metadata": {}
+      },
+      "location": {
+          "type": "geo:json",
+          "value": {
+              "type": "Point",
+              "coordinates": [
+                  8.753842,
+                  51.716858
+              ]
+          },
+          "metadata": {}
+      },
+      "name": {
+          "type": "Text",
+          "value": "HLF20",
+          "metadata": {}
+      },
+      "reportToLocation": {
+          "type": "StructuredValue",
+          "value": {
+              "type": "Point",
+              "coordinates": [
+                  8.753842,
+                  51.716858
+              ]
+          },
+          "metadata": {}
+      },
+      "vehicleType": {
+          "type": "Text",
+          "value": "lorry",
+          "metadata": {}
+      }
+  }
+]
