@@ -1,0 +1,22 @@
+{
+  "id": "urn:ngsi-ld:NotificationMessage:1234",
+  "type": "NotificationMessage",
+  "sender": {
+    "type": "StructuredValue",
+    "value": {
+      "id": "urn:ngsi-ld:UAV:1234",
+      "senderType": "UAV"
+    }
+  },
+  "text": {
+    "value": "Drohne gelandet"
+  },
+  "dateSent": {
+    "type": "DateTime",
+    "value": "2021-01-12T07:52:06.00Z"
+  },
+  "missionId": {
+    "type": "Relationship",
+    "value": "urn:ngsi-ld:Alert:110"
+  }
+}
