@@ -8,6 +8,9 @@
       "senderType": "UAV"
     }
   },
+  "headline": {
+    "value": "Drohnenaktivität"
+  },
   "text": {
     "value": "Drohne gelandet"
   },
