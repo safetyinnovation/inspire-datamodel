@@ -1,14 +1,14 @@
 # SocialMedia
 
-This entity contains a harmonised description of SocialMedia Posting
+This entity contains a harmonised description of SocialMedia Postings
 
 ## Data Model
 
 - `id`
 
-- `type`
+- `type`: SocialMedia
 
-- `country`: The identified country
+- `country`: Text. The identified country of the post
 
 - `createdBy`: The SocialMediaUser who created the post
 
@@ -28,13 +28,8 @@ This entity contains a harmonised description of SocialMedia Posting
 
 - `searchIds`: String Array indicating to which crawler/social media search this post belongs
 
-- `sentiment`: Number. The sentiment of the post (e.g negative, positive, neutral, no value)
+- `sentiment`: Number. The sentiment of the post (e.g. negative, positive, neutral, no value)
 
-- `snipppet`: Short extract (snippet) of the social media post
+- `snipppet`: Text. Short extract (snippet) of the social media post
 
-
-- ` `
-  - Attribute type: GeoProperty. `geo:json` Point.
-  - Normative References:
-        [https://tools.ietf.org/html/rfc7946](https://tools.ietf.org/html/rfc7946)
-  - Required.
+- `viralityTotalScore`: Number. Virality indicator of the post
