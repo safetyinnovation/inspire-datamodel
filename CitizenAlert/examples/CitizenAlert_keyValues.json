@@ -1,0 +1,55 @@
+[
+    {
+        "id": "urn:ngsi-ld:CitizenAlert:a2b5254a-9b0d-4e7d-b50e-81a6c00392ff",
+        "type": "CitizenAlert",
+        "info": {
+            "category": "Fire",
+            "event": "Großfeuer",
+            "urgency": "Immediate",
+            "severity": "Unknown ",
+            "certainty": "Observed",
+            "senderName": "INSPIRE.app",
+            "headline": "Großfeuer in Paderborn",
+            "description": "Ein Großfeuer breitet sich in Paderborn aus. Schließen Sie Fenster und Türen",
+            "area": {
+                "areaDesc": "Paderborn Südstadt",
+                "polygon": [],
+                "geojsonPolygon": {
+                    "type": "geo:json",
+                    "value": {
+                        "type": "Polygon",
+                        "coordinates": [
+                            [
+                                [
+                                    8.740203381,
+                                    51.707442847
+                                ],
+                                [
+                                    8.740337491,
+                                    51.70706721
+                                ],
+                                [
+                                    8.740546703,
+                                    51.707113749
+                                ],
+                                [
+                                    8.740380406,
+                                    51.707482737
+                                ],
+                                [
+                                    8.740203381,
+                                    51.707442847
+                                ]
+                            ]
+                        ]
+                    }
+                }
+            }
+        },
+        "msgType": "Alert",
+        "scope": "Public",
+        "sender": "Feuerwehr Paderborn in INSPIRE",
+        "sent": "2020-10-13T11:32:35.00Z",
+        "status": "Actual"
+    }
+]
