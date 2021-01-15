@@ -1,0 +1,49 @@
+{
+    "id": "urn:ngsi-ld:SocialMediaSearch:255aff4c-573f-4793-9e2c-47cb4d2e4954",
+    "type": "SocialMediaSearch",
+    "active": {
+        "type": "Boolean",
+        "value": true,
+        "metadata": {}
+    },
+    "dateLastModified": {
+        "type": "Text",
+        "value": "2020-11-24T14:40:34.545Z",
+        "metadata": {}
+    },
+    "deleted": {
+        "type": "Boolean",
+        "value": false,
+        "metadata": {}
+    },
+    "errorMessage": {
+        "type": "Text",
+        "value": "",
+        "metadata": {}
+    },
+    "name": {
+        "type": "Text",
+        "value": "testFW From app",
+        "metadata": {}
+    },
+    "parentSearchId": {
+        "type": "Number",
+        "value": 1,
+        "metadata": {}
+    },
+    "searchMode": {
+        "type": "Text",
+        "value": "advanced",
+        "metadata": {}
+    },
+    "searchPhrase": {
+        "type": "Text",
+        "value": "%28%28feuerwehr OR unfall OR Notruf OR Unwetter OR feuer OR stromausfall OR strom OR Hochwaser OR #paderborn112%29 AND %28paderborn OR Borchen OR Rheda%29 AND NOT %28Versicherung OR Gutachten%29%29 : SEGMENT %3D %22Social Network%22, Microblog, Pictures, %22YouTube Video%22, Video, %22YouTube Comments%22, Consumer, Comments",
+        "metadata": {}
+    },
+    "searchid": {
+        "type": "Number",
+        "value": 189,
+        "metadata": {}
+    }
+}

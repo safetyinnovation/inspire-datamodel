@@ -1,0 +1,19 @@
+{
+    "id": "urn:ngsi-ld:SocialMediaUser:29ff3dffdc3ba923d8d3f12ca35a70fdd51cff67",
+    "type": "SocialMediaUser",
+    "displayName": {
+        "type": "Text",
+        "value": "BlaulichtDe",
+        "metadata": {}
+    },
+    "profileUrl": {
+        "type": "Text",
+        "value": "https://twitter.com/BlaulichtDe",
+        "metadata": {}
+    },
+    "username": {
+        "type": "Text",
+        "value": "Blaulichtreport-Deutschland",
+        "metadata": {}
+    }
+}

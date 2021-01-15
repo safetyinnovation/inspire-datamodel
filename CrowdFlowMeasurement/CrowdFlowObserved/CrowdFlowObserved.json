@@ -1,0 +1,290 @@
+[
+    {
+        "id": "urn:ngsi-ld:CrowdFlowObserved:bd20f647-0c72-42e6-940e-4ece00020b9e",
+        "type": "CrowdFlowObserved",
+        "averageHeadwayTime": {
+            "type": "Number",
+            "value": 0,
+            "metadata": {}
+        },
+        "congested": {
+            "type": "Text",
+            "value": "false",
+            "metadata": {}
+        },
+        "dateObserved": {
+            "type": "Text",
+            "value": "2020-04-24T10:37:13/2020-04-24T14:36:33",
+            "metadata": {}
+        },
+        "dateObservedFrom": {
+            "type": "DateTime",
+            "value": "2020-04-24T10:37:13.00Z",
+            "metadata": {}
+        },
+        "dateObservedTo": {
+            "type": "DateTime",
+            "value": "2020-04-24T14:36:33.00Z",
+            "metadata": {}
+        },
+        "direction": {
+            "type": "Text",
+            "value": "outbound",
+            "metadata": {}
+        },
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "coordinates": [
+                    [
+                        8.70988,
+                        51.731185
+                    ],
+                    [
+                        8.70998,
+                        51.731285
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "metadata": {}
+        },
+        "peopleCount": {
+            "type": "Number",
+            "value": 0,
+            "metadata": {}
+        }
+    },
+    {
+        "id": "urn:ngsi-ld:CrowdFlowObserved:8674bc40-6177-4b81-bacb-90664d22e7db",
+        "type": "CrowdFlowObserved",
+        "averageHeadwayTime": {
+            "type": "Number",
+            "value": 0,
+            "metadata": {}
+        },
+        "congested": {
+            "type": "Text",
+            "value": "false",
+            "metadata": {}
+        },
+        "dateObserved": {
+            "type": "Text",
+            "value": "2020-05-01T10:37:13/2020-05-24T14:36:33",
+            "metadata": {}
+        },
+        "dateObservedFrom": {
+            "type": "DateTime",
+            "value": "2020-05-01T10:37:13.00Z",
+            "metadata": {}
+        },
+        "dateObservedTo": {
+            "type": "DateTime",
+            "value": "2020-05-01T14:36:33.00Z",
+            "metadata": {}
+        },
+        "direction": {
+            "type": "Text",
+            "value": "outbound",
+            "metadata": {}
+        },
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "coordinates": [
+                    [
+                        8.70988,
+                        51.731185
+                    ],
+                    [
+                        8.70998,
+                        51.731285
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "metadata": {}
+        },
+        "peopleCount": {
+            "type": "Number",
+            "value": 10,
+            "metadata": {}
+        }
+    },
+    {
+        "id": "urn:ngsi-ld:CrowdFlowObserved:92421f79-edd9-4c78-bfcf-cade5f8d9f62",
+        "type": "CrowdFlowObserved",
+        "averageHeadwayTime": {
+            "type": "Number",
+            "value": 0,
+            "metadata": {}
+        },
+        "congested": {
+            "type": "Text",
+            "value": "false",
+            "metadata": {}
+        },
+        "dateObserved": {
+            "type": "Text",
+            "value": "2020-05-03T10:37:13/2020-05-03T14:36:33",
+            "metadata": {}
+        },
+        "dateObservedFrom": {
+            "type": "DateTime",
+            "value": "2020-05-03T10:37:13.00Z",
+            "metadata": {}
+        },
+        "dateObservedTo": {
+            "type": "DateTime",
+            "value": "2020-05-03T14:36:33.00Z",
+            "metadata": {}
+        },
+        "direction": {
+            "type": "Text",
+            "value": "inbound",
+            "metadata": {}
+        },
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "coordinates": [
+                    [
+                        8.70988,
+                        51.731185
+                    ],
+                    [
+                        8.70998,
+                        51.731285
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "metadata": {}
+        },
+        "peopleCount": {
+            "type": "Number",
+            "value": 20,
+            "metadata": {}
+        }
+    },
+    {
+        "id": "urn:ngsi-ld:CrowdFlowObserved:5237c7fd-90c3-4495-8b21-449ed5c3ab94",
+        "type": "CrowdFlowObserved",
+        "averageHeadwayTime": {
+            "type": "Number",
+            "value": 0,
+            "metadata": {}
+        },
+        "congested": {
+            "type": "Text",
+            "value": "false",
+            "metadata": {}
+        },
+        "dateObserved": {
+            "type": "Text",
+            "value": "2020-07-01T07:01:00/2020-07-01T07:10:00.00Z",
+            "metadata": {}
+        },
+        "dateObservedFrom": {
+            "type": "DateTime",
+            "value": "2020-07-01T06:01:00.00Z",
+            "metadata": {}
+        },
+        "dateObservedTo": {
+            "type": "DateTime",
+            "value": "2020-07-01T07:10:00.00Z"
+        },
+        "direction": {
+            "type": "Text",
+            "value": "outbound",
+            "metadata": {}
+        },
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "coordinates": [
+                    [
+                        8.70988,
+                        51.731185
+                    ],
+                    [
+                        8.70998,
+                        51.731285
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "metadata": {}
+        },
+        "peopleCount": {
+            "type": "Number",
+            "value": 5,
+            "metadata": {
+                "TimeInstant": {
+                    "type": "DateTime",
+                    "value": "2020-07-01T07:10:00.00Z"
+                }
+            }
+        }
+    },
+    {
+        "id": "urn:ngsi-ld:CrowdFlowObserved:79e551e9-07d2-47b0-ac1c-d06c1f06a139",
+        "type": "CrowdFlowObserved",
+        "averageHeadwayTime": {
+            "type": "Number",
+            "value": 0,
+            "metadata": {}
+        },
+        "congested": {
+            "type": "Text",
+            "value": "false",
+            "metadata": {}
+        },
+        "dateObserved": {
+            "type": "Text",
+            "value": "2020-06-05T09:00:00.00Z/2020-06-05T09:10:00.00Z",
+            "metadata": {}
+        },
+        "dateObservedFrom": {
+            "type": "DateTime",
+            "value": "2020-06-05T09:00:00.00Z",
+            "metadata": {}
+        },
+        "dateObservedTo": {
+            "type": "DateTime",
+            "value": "2020-06-05T09:10:00.00Z"
+        },
+        "direction": {
+            "type": "Text",
+            "value": "inbound",
+            "metadata": {}
+        },
+        "location": {
+            "type": "geo:json",
+            "value": {
+                "coordinates": [
+                    [
+                        8.70988,
+                        51.731185
+                    ],
+                    [
+                        8.70998,
+                        51.731285
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "metadata": {}
+        },
+        "peopleCount": {
+            "type": "Number",
+            "value": 3,
+            "metadata": {
+                "TimeInstant": {
+                    "type": "DateTime",
+                    "value": "2020-06-05T09:10:00.00Z"
+                }
+            }
+        }
+    }
+]
