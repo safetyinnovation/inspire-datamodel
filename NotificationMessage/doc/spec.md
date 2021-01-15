@@ -4,7 +4,7 @@ The data model is adapted from https://www.schema.org/Message
 
 ## Data Model
 
-- `id`
+- `id`: Uniqzue identifier
 
 - `type`: NotificationMessage
 
