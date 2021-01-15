@@ -14,3 +14,4 @@ Data Model for an area that is covered by crowd flow measurement sensors
 
 - `sensors`: String Array containing the IDs of the devices. Each device represents a sensor for measuring the crowd flows
 
+- `status`: Text. Status Message
