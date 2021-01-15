@@ -1,5 +1,5 @@
 {
-    "id": "urn:ngsi-ld:Device:Media11609",
+    "id": "urn:ngsi-ld:Device:Sensor51433",
     "type": "Device",
     "attachedTo": {
         "type": "StructuredValue",
@@ -12,20 +12,33 @@
     "category": {
         "type": "StructuredValue",
         "value": [
-            "media"
+            "sensor"
         ],
+        "metadata": {}
+    },
+    "configuration": {
+        "type": "Symcon",
+        "value": {
+            "profile": "Occupation",
+            "reportingInterval": 3600,
+            "thresholds": {
+                "invalid": [],
+                "warning": [],
+                "alarm": []
+            }
+        },
         "metadata": {}
     },
     "controlledProperty": {
         "type": "StructuredValue",
         "value": [
-            "camera"
+            "motion"
         ],
         "metadata": {}
     },
     "dateLastValueReported": {
         "type": "DateTime",
-        "value": "2021-01-15T07:28:26.00Z",
+        "value": "2020-12-23T11:51:59.00Z",
         "metadata": {}
     },
     "description": {
@@ -43,15 +56,15 @@
         "value": {
             "type": "Point",
             "coordinates": [
-                10.6866,
-                53.8655
+                8.8029,
+                51.7806
             ]
         },
         "metadata": {}
     },
     "name": {
         "type": "Text",
-        "value": "Image",
+        "value": "Park-Sensor 4",
         "metadata": {}
     },
     "source": {
@@ -60,81 +73,8 @@
         "metadata": {}
     },
     "value": {
-        "type": "StructuredValue",
-        "value": {
-            "mediaType": "IMAGE",
-            "url": "https://storage.inspireprojekt.de/smarthome/11609/20210115_082825.jpg"
-        },
-        "metadata": {}
-    }
-},
-{
-    "id": "urn:ngsi-ld:Device:Media16643",
-    "type": "Device",
-    "attachedTo": {
-        "type": "StructuredValue",
-        "value": {
-            "attachedToType": "Building",
-            "attachedToId": "urn:ngsi-ld:Building:660635b2-eac7-464d-41d9-5d9820daaefb"
-        },
-        "metadata": {}
-    },
-    "category": {
-        "type": "StructuredValue",
-        "value": [
-            "media"
-        ],
-        "metadata": {}
-    },
-    "controlledProperty": {
-        "type": "StructuredValue",
-        "value": [
-            "camera"
-        ],
-        "metadata": {}
-    },
-    "dateLastValueReported": {
-        "type": "DateTime",
-        "value": "2021-01-15T07:00:12.00Z",
-        "metadata": {}
-    },
-    "description": {
-        "type": "Text",
-        "value": "",
-        "metadata": {}
-    },
-    "deviceState": {
-        "type": "Text",
-        "value": "OK",
-        "metadata": {}
-    },
-    "location": {
-        "type": "geo:json",
-        "value": {
-            "type": "Point",
-            "coordinates": [
-                10.7485,
-                54.0508
-            ]
-        },
-        "metadata": {}
-    },
-    "name": {
-        "type": "Text",
-        "value": "Image",
-        "metadata": {}
-    },
-    "source": {
-        "type": "Text",
-        "value": "IP-Symcon LoRa Gateway",
-        "metadata": {}
-    },
-    "value": {
-        "type": "StructuredValue",
-        "value": {
-            "mediaType": "IMAGE",
-            "url": "https://storage.inspireprojekt.de/smarthome/16643/20210115_080010.jpg"
-        },
+        "type": "Boolean",
+        "value": true,
         "metadata": {}
     }
 }

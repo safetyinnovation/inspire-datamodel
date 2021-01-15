@@ -6,7 +6,7 @@ Data Model for an area that is covered by crowd flow measurement sensors
 
 - `id`
 
-- `type`: CrowdFlowObserved
+- `type`: CrowdFlowSensorSite
 
 - `fieldOfView`: GeoJson polygon. Area that is covered by the sensors
 
