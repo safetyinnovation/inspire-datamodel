@@ -1,0 +1,33 @@
+{
+    "id": "urn:ngsi-ld:Building:cffeb999-0977-4447-9805-6562ecca0cfd",
+    "type": "Building",
+    "category": {
+        "value": [
+            "house"
+        ]
+    },
+    "description": {
+        "value": "IRIS SmartHome"
+    },
+    "source": {
+        "value": "http://www.inspireprojekt.de"
+    },
+    "location": {
+        "type": "geo:json",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                8.7786549,
+                51.7349909
+            ]
+        }
+    },
+    "address": {
+        "type": "PostalAddress",
+        "value": {
+            "addressLocality": "Paderborn",
+            "postalCode": "33100",
+            "streetAddress": "Steubenstraße 47a"
+        }
+    }
+}

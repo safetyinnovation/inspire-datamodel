@@ -1,0 +1,140 @@
+{
+    "id": "urn:ngsi-ld:Device:Media11609",
+    "type": "Device",
+    "attachedTo": {
+        "type": "StructuredValue",
+        "value": {
+            "attachedToType": "Building",
+            "attachedToId": "urn:ngsi-ld:Building:89c27488-f934-427e-eff9-988ef3dd0da3"
+        },
+        "metadata": {}
+    },
+    "category": {
+        "type": "StructuredValue",
+        "value": [
+            "media"
+        ],
+        "metadata": {}
+    },
+    "controlledProperty": {
+        "type": "StructuredValue",
+        "value": [
+            "camera"
+        ],
+        "metadata": {}
+    },
+    "dateLastValueReported": {
+        "type": "DateTime",
+        "value": "2021-01-15T07:28:26.00Z",
+        "metadata": {}
+    },
+    "description": {
+        "type": "Text",
+        "value": "",
+        "metadata": {}
+    },
+    "deviceState": {
+        "type": "Text",
+        "value": "OK",
+        "metadata": {}
+    },
+    "location": {
+        "type": "geo:json",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                10.6866,
+                53.8655
+            ]
+        },
+        "metadata": {}
+    },
+    "name": {
+        "type": "Text",
+        "value": "Image",
+        "metadata": {}
+    },
+    "source": {
+        "type": "Text",
+        "value": "IP-Symcon LoRa Gateway",
+        "metadata": {}
+    },
+    "value": {
+        "type": "StructuredValue",
+        "value": {
+            "mediaType": "IMAGE",
+            "url": "https://storage.inspireprojekt.de/smarthome/11609/20210115_082825.jpg"
+        },
+        "metadata": {}
+    }
+},
+{
+    "id": "urn:ngsi-ld:Device:Media16643",
+    "type": "Device",
+    "attachedTo": {
+        "type": "StructuredValue",
+        "value": {
+            "attachedToType": "Building",
+            "attachedToId": "urn:ngsi-ld:Building:660635b2-eac7-464d-41d9-5d9820daaefb"
+        },
+        "metadata": {}
+    },
+    "category": {
+        "type": "StructuredValue",
+        "value": [
+            "media"
+        ],
+        "metadata": {}
+    },
+    "controlledProperty": {
+        "type": "StructuredValue",
+        "value": [
+            "camera"
+        ],
+        "metadata": {}
+    },
+    "dateLastValueReported": {
+        "type": "DateTime",
+        "value": "2021-01-15T07:00:12.00Z",
+        "metadata": {}
+    },
+    "description": {
+        "type": "Text",
+        "value": "",
+        "metadata": {}
+    },
+    "deviceState": {
+        "type": "Text",
+        "value": "OK",
+        "metadata": {}
+    },
+    "location": {
+        "type": "geo:json",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                10.7485,
+                54.0508
+            ]
+        },
+        "metadata": {}
+    },
+    "name": {
+        "type": "Text",
+        "value": "Image",
+        "metadata": {}
+    },
+    "source": {
+        "type": "Text",
+        "value": "IP-Symcon LoRa Gateway",
+        "metadata": {}
+    },
+    "value": {
+        "type": "StructuredValue",
+        "value": {
+            "mediaType": "IMAGE",
+            "url": "https://storage.inspireprojekt.de/smarthome/16643/20210115_080010.jpg"
+        },
+        "metadata": {}
+    }
+}
