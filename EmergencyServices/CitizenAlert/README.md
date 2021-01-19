@@ -1,3 +1,3 @@
-# Readme
+# README
 
-TODO: Import from PowerPoint on Teams
+This folder contains the data model for citizen alerts.
