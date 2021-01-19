@@ -1,6 +1,6 @@
 # NotificationMessage
 
-The data model is adapted from https://www.schema.org/Message
+The data model is adapted from [Schema.org/Message](https://www.schema.org/Message)
 
 ## Data Model
 
@@ -18,4 +18,4 @@ The data model is adapted from https://www.schema.org/Message
   - `id`: ID of the sender
   - `type`: The Type of the sender
 
-- `missionId`: Relationship. The mission with which this message is associated
+- `missionId`: Relationship. The mission with which this message is associated. Optional.

@@ -17,3 +17,5 @@ Data Model for a ROI (Region of Interest) for measuring crowd flows in a sub are
 - `active`: Boolean. True, if the ROI should be considered for measurements.
 
 - `crowdCountObservedId`: Relationship. The id of the associated CrowdCountObserved
+
+- `displayName`: Text. Name of the ROI

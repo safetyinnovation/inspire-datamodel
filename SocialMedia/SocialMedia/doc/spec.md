@@ -4,7 +4,7 @@ This entity contains a harmonised description of SocialMedia Postings
 
 ## Data Model
 
-- `id`
+- `id`: Unique identifier
 
 - `type`: SocialMedia
 

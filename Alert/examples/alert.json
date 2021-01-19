@@ -1,0 +1,33 @@
+{
+    "id": "urn:ngsi-ld:Alert:100",
+    "type": "Alert",
+    "address": {
+        "addressLocality": "Paderborn",
+        "postalCode": "33100",
+        "streetAddress": "Warburger Straße 12"
+    },
+    "alertSource": "Leitstelle",
+    "category": "security",
+    "data": {
+        "socialMediaSearchIds": [
+            "49",
+            "51",
+            "53"
+        ],
+        "alertKeyWord": "Feuer1",
+        "metaCategory": "FIREFIGHTING"
+    },
+    "dateIssued": "2019-07-03T00:00:00.00Z",
+    "description": "Brennt Haus",
+    "location": {
+        "type": "Point",
+        "coordinates": [
+            8.799459,
+            51.694793
+        ]
+    },
+    "severity": "medium",
+    "subCategory": "buildingFire",
+    "validFrom": "2019-07-03T00:00:00.00Z",
+    "validTo": "2019-07-03T00:10:00.00Z"
+}

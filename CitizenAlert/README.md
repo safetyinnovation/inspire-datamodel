@@ -1,3 +1,3 @@
-# TODO
+# README
 
-Based on EDXL CAP
+This folder contains the data model for citizen alerts.
