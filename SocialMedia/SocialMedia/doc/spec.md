@@ -1,6 +1,6 @@
 # SocialMedia
 
-This entity contains a harmonised description of SocialMedia Postings
+This entity contains a harmonised description of SocialMedia Postings. It has been inspired by  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6387244/
 
 ## Data Model
 
@@ -10,7 +10,7 @@ This entity contains a harmonised description of SocialMedia Postings
 
 - `country`: Text. The identified country of the post
 
-- `createdBy`: The SocialMediaUser who created the post
+- `createdBy`: Relationship. The SocialMediaUser who created the post
 
 - `dateIssued`: The timestamp when the Social Media post was posted. Type: DateTime
 

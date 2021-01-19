@@ -14,22 +14,7 @@
       "description": "Ein Großfeuer breitet sich in Paderborn aus. Schließen Sie Fenster und Türen",
       "area": {
         "areaDesc": "Paderborn Südstadt",
-        "polygon": [],
-        "geojsonPolygon": {
-          "type": "geo:json",
-          "value": {
-            "type": "Polygon",
-            "coordinates": [
-              [
-                [8.740203381, 51.707442847],
-                [8.740337491, 51.70706721],
-                [8.740546703, 51.707113749],
-                [8.740380406, 51.707482737],
-                [8.740203381, 51.707442847]
-              ]
-            ]
-          }
-        }
+        "polygon": []
       }
     }
   },

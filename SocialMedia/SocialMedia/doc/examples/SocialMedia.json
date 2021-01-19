@@ -1,0 +1,65 @@
+{
+    "id": "urn:ngsi-ld:SocialMedia:AgB_nAcAa-VC",
+    "type": "SocialMedia",
+    "country": {
+        "type": "Text",
+        "value": null,
+        "metadata": {}
+    },
+    "createdBy": {
+        "type": "SocialMediaUser",
+        "value:": "urn:ngsi-ld:SocialMediaUser:1234567"
+    },
+    "dateIssued": {
+        "type": "DateTime",
+        "value": "2020-02-07T08:36:00.00Z",
+        "metadata": {}
+    },
+    "media": {
+        "type": "Media",
+        "value": {
+            "imageUrls": [
+                "https://pbs.twimg.com/media/EQHpLbcWAAE69D3.jpg"
+            ],
+            "videoUrls": []
+        },
+        "metadata": {}
+    },
+    "message": {
+        "type": "Text",
+        "value": "Meteorologen warnen vor #Unwetter mit #Orkanböen am #Wochenende in #Berlin. pic.twitter.com/MGYcr6TQjL",
+        "metadata": {}
+    },
+    "network": {
+        "type": "Text",
+        "value": "twitter",
+        "metadata": {}
+    },
+    "originalUrl": {
+        "type": "Text",
+        "value": "https://twitter.com/rbbabendschau/status/1225699719797669888",
+        "metadata": {}
+    },
+    "searchIds": {
+        "type": "Text",
+        "value": [
+            "12"
+        ],
+        "metadata": {}
+    },
+    "sentiment": {
+        "type": "Number",
+        "value": 0,
+        "metadata": {}
+    },
+    "snippet": {
+        "type": "Text",
+        "value": "Meteorologen warnen vor #Unwetter mit #Orkanböen am #Wochenende in #Berlin. pic.twitter.com/MGYcr6TQjL",
+        "metadata": {}
+    },
+    "viralityTotalScore": {
+        "type": "Number",
+        "value": 1,
+        "metadata": {}
+    }
+}
