@@ -15,7 +15,7 @@ The data model is adapted from [Smart data model Device](https://github.com/smar
 
   - `reportingInterval`: Number. Interval in which device sends new data, in seconds
 
-  - `tresholds`: StructuredValue. Optional. Used for calculating `deviceState`
+  - `thresholds`: StructuredValue. Optional. Used for calculating `deviceState`
 
     - `invalid`: Threshold Configuration Array for invalid state.
 
