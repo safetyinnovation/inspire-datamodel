@@ -29,4 +29,5 @@ EmergencyVehicle is based on the FIWARE Vehicle (<https://github.com/smart-data-
 
 - `assignedToMission`: The link to the mission the EmergencyVehicle is currently assigned to (Optional)
 
-- `deploymentStatus`: See <https://de.wikipedia.org/wiki/Funkmeldesystem#Meldeweg_Fahrzeug_–_Leitstelle>, depends also on `vehicleSpecialUsage`. TODO: Internationalize this, e.g. with DeploymentStatusDefaultValues from EDXL-SitRep
+- `fmsStatus`: See [FMS on Wikipedia](https://de.wikipedia.org/wiki/Funkmeldesystem#Meldeweg_Fahrzeug_–_Leitstelle)
+  depends also on `vehicleSpecialUsage`. TODO: Internationalize this, e.g. with DeploymentStatusDefaultValues from EDXL-SitRep
