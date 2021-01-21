@@ -1,6 +1,6 @@
 # EmergencyVehicle
 
-EmergencyVehicle is based on the FIWARE Vehicle (<https://github.com/smart-data-models/dataModel.Transportation/tree/master/Vehicle>) data model but extends it with emergency-specific information. The extension is based in part on the EDXL-SitRep 1.0 ResouceDetail (4.5.1.1.1) <http://docs.oasis-open.org/emergency/edxl-sitrep/v1.0/cs02/edxl-sitrep-v1.0-cs02.pdf> data type.
+EmergencyVehicle is based on the [Smart data model Vehicle](https://github.com/smart-data-models/dataModel.Transportation/tree/master/Vehicle) but extends it with emergency-specific information. The extension is based in part on the [EDXL-SitRep 1.0 ResouceDetail (4.5.1.1.1)](http://docs.oasis-open.org/emergency/edxl-sitrep/v1.0/cs02/edxl-sitrep-v1.0-cs02.pdf) data type.
 
 
 ## Data Model
@@ -15,13 +15,13 @@ EmergencyVehicle is based on the FIWARE Vehicle (<https://github.com/smart-data-
 
 - `vehicleType`: lorry
 
-- `category`: ["public", "specialUsage"]
+- `category`: Enum. Allowed values `public`, `specialUsage`
 
 - `fleetVehicleId`: Radio call sign of the vehicle
 
 - `vehicleSpecialUsage`: See Vehicle spec.
 
-- `baseStation`: EmergencyStation where this vehicle is usually stationed
+- `baseStation`: Relationship. EmergencyStation where this vehicle is usually stationed
 
 - `location`: see Vehicle spec.
 
