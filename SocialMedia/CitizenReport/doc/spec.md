@@ -10,7 +10,9 @@ This entity contains a harmonised description of a report send by a citizen via 
 
 - `dateCreated`
 
-- `sender`: URI identifying the sender (e.g. `tg:xyz`)
+- `sender`: 
+   - `id`: ID of the sender
+   - `name`: Name of the sender
 
 - `attachments`
   - Type: `structuredValue`
