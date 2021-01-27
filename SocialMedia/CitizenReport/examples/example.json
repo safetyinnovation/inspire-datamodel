@@ -1,43 +1,46 @@
 {
-    "id": "urn:ngsi-ld:CitizenReport:508578829",
-    "type": "CitizenReport",
-    "sender": "tg:435645654",
-    "attachments": {
-        "type": "StructuredValue",
-        "value": [
-            {
-                "attachmentType": "TEXT",
-                "text": "Test"
-            },
-            {
-                "attachmentType": "IMAGE",
-                "url": "https://example.com/0354c27d-1161-4367-bb81-3dc9b50c34c3_file_79.jpg"
-            }
-        ],
-        "metadata": {}
-    },
-    "answer": {
-        "type": "StructuredValue",
-        "value": {
-            "dateSent": "2020-06-04T14:18:34.00Z",
-            "text": "Bitte noch ein Foto zusätzlich schicken"
-        },
-        "metadata": {}
-    },
-    "dateCreated": {
-        "type": "DateTime",
-        "value": "2020-06-04T14:13:34.00Z",
-        "metadata": {}
-    },
-    "location": {
-        "type": "geo:json",
-        "value": {
-            "type": "Point",
-            "coordinates": [
-                13.404954,
-                52.520008
-            ]
-        },
-        "metadata": {}
+  "id": "urn:ngsi-ld:CitizenReport:508578829",
+  "type": "CitizenReport",
+  "sender": {
+    "type": "StructuredValue",
+    "value": {
+      "id": "124456",
+      "name": "Vorname Nachname"
     }
+  },
+  "attachments": {
+    "type": "StructuredValue",
+    "value": [
+      {
+        "attachmentType": "TEXT",
+        "text": "Test"
+      },
+      {
+        "attachmentType": "IMAGE",
+        "url": "https://example.com/0354c27d-1161-4367-bb81-3dc9b50c34c3_file_79.jpg"
+      }
+    ],
+    "metadata": {}
+  },
+  "answer": {
+    "type": "StructuredValue",
+    "value": {
+      "dateSent": "2020-06-04T14:18:34.00Z",
+      "text": "Bitte noch ein Foto zusätzlich schicken"
+    },
+    "metadata": {}
+  },
+  "dateCreated": {
+    "type": "DateTime",
+    "value": "2020-06-04T14:13:34.00Z",
+    "metadata": {}
+  },
+  "location": {
+    "type": "geo:json",
+    "value": {
+      "type": "Point",
+      "coordinates": [13.404954, 52.520008]
+    },
+    "metadata": {}
+  }
 }
