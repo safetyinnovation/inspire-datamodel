@@ -19,3 +19,7 @@ Data Model for a ROI (Region of Interest) for measuring crowd flows in a sub are
 - `crowdCountObservedId`: Relationship. The id of the associated CrowdCountObserved
 
 - `displayName`: Text. Name of the ROI
+
+- `edgeNames`: StructuredValue. Mapping between edgeIds and their name.
+ - `<id of the edge`: `<edgeName>`
+ 
