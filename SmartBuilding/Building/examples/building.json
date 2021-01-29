@@ -30,7 +30,7 @@
             "streetAddress": "Steubenstraße 47a"
         }
     },
-    "plan": {
+    "floorPlan": {
         "value:": "https://storage.inspireprojekt.de/smarthome/"
     }
 }
