@@ -29,5 +29,8 @@
             "postalCode": "33100",
             "streetAddress": "Steubenstraße 47a"
         }
+    },
+    "floorPlan": {
+        "value:": "https://storage.inspireprojekt.de/smarthome/"
     }
 }
