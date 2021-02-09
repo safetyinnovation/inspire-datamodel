@@ -10,3 +10,7 @@ This variant contains all fields from the parent data model and declares some ne
   - `socialMediaSearchIds`: String Array. Indicating which Social Media searches are associated with this Alert
   - `alertKeyWord`: Text. The alert keyword issued for this mission
   - `metaCategory`: Enum. Meta category for this type of mission. Valid values are `FIREFIGHTING`, `CBRN_PROTECTION`, `MEDICAL_EMERGENCY`, `TECHNICAL_SUPPORT`
+
+- `externalId`: Text. Externally assigned ID or mission number for this mission
+
+- `emergencyVehicles`: String Array. List of EmergencyVehicle-IDs associated with this mission.
