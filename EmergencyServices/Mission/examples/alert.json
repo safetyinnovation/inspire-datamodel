@@ -6,6 +6,7 @@
         "postalCode": "33100",
         "streetAddress": "Warburger Straße 12"
     },
+    "externalId": "20201.27.2823",
     "alertSource": "Leitstelle",
     "category": "security",
     "data": {
@@ -29,5 +30,8 @@
     "severity": "medium",
     "subCategory": "buildingFire",
     "validFrom": "2019-07-03T00:00:00.00Z",
-    "validTo": "2019-07-03T00:10:00.00Z"
+    "validTo": "2019-07-03T00:10:00.00Z",
+    "emergencyVehicles": [
+            "urn:ngsi-ld:EmergencyVehicle:1234"
+        ]
 }
