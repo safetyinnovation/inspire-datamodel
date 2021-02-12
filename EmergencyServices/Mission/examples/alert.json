@@ -16,6 +16,7 @@
             "53"
         ],
         "alertKeyWord": "Feuer1",
+        "alertKeyWordShort": "Fe1C",
         "metaCategory": "FIREFIGHTING"
     },
     "dateIssued": "2019-07-03T00:00:00.00Z",
