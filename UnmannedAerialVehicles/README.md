@@ -1,3 +1,3 @@
 # Readme
 
-TODO
+Note: This data model is currently under construction
