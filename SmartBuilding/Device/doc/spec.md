@@ -41,7 +41,7 @@ The data model is adapted from [Smart data model Device](https://github.com/smar
 
 - `deviceState`: Enum. One of `OK`, `WARNING`, `ALARM`, `ERROR`
 - `action`: Only if category is actuator
-  - `status`: `PENDING`, `SUCCESS`, `ERROR`, `TIMEOUT`
+  - `status`: `PENDING`, `SUCCESS`, `DENIED`, `ERROR`, `TIMEOUT`
   - `desiredValue`: see value
 
 
