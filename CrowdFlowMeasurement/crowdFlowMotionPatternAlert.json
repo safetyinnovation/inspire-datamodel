@@ -1,0 +1,52 @@
+{
+    "id": "urn:ngsi-ld:CrowdFlowMotionPatternAlert​:eb45985a-758f-4ee0-bcc1-7ba10a83490f",
+    "type": "CrowdFlowMotionPatternAlert​",
+	"dateObserved":	"DateTime":	{
+	"value": 2021-03-26T09:04:09    
+    },
+    "area": {
+        "value": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        8.772420734167099,
+                        51.70677052115029
+                    ],
+                    [
+                        8.772596418857574,
+                        51.706520370170736
+                    ],
+                    [
+                        8.773364871740341,
+                        51.706730630056875
+                    ],
+                    [
+                        8.773183822631836,
+                        51.70688188359987
+                    ],
+                    [
+                        8.772486448287964,
+                        51.706964158666416
+                    ],
+                    [
+                        8.772420734167099,
+                        51.70677052115029
+                    ]
+                ]
+            ]
+        }
+    },
+	"peopleCount": {
+	"value": 21
+	},
+	"motionPatternChangeFrom": {
+	"value": "TBD"
+	},
+	"motionPatternChangeTo": {
+	"value": "TBD"
+	},
+    "crowdFlowRoiId": {
+        "value": "TBD"
+    }
+}
