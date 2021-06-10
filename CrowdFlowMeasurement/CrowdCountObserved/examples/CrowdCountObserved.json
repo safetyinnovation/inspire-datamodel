@@ -1,24 +1,24 @@
 {
-    "id": "urn:ngsi-ld:CrowdCountObserved:2f6617eb-b21a-46c2-9121-cdc476f24744",
-    "type": "CrowdCountObserved",
-    "dateObserved":{
-        "type": "DateTime",
-        "value": "2020-07-03T07:08:28.00Z"
-    },
-    "quality":{
-        "type": "Number",
-        "value": 0.9
-    },
-    "peopleCount" : {
-        "type": "Number",
-        "value": 10
-    },
-    "totalInbound": {
-        "type": "Number",
-        "value": 20
-    },
-    "totalOutbound": {
-        "type": "Number",
-        "value": 10
-    }
+  "id": "urn:ngsi-ld:CrowdCountObserved:2f6617eb-b21a-46c2-9121-cdc476f24744",
+  "type": "CrowdCountObserved",
+  "dateObserved": {
+    "type": "DateTime",
+    "value": "2020-07-03T07:08:28.00Z"
+  },
+  "quality": {
+    "type": "Number",
+    "value": 0.9
+  },
+  "peopleCount": {
+    "type": "Number",
+    "value": 10
+  },
+  "totalInbound": {
+    "type": "Number",
+    "value": 20
+  },
+  "totalOutbound": {
+    "type": "Number",
+    "value": 10
+  }
 }

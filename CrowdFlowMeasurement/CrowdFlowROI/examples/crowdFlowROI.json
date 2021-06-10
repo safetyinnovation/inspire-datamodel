@@ -1,79 +1,82 @@
 {
-        "id": "urn:ngsi-ld:CrowdFlowROI:eb45985a-758f-4ee0-bcc1-7ba10a83490f",
-        "type": "CrowdFlowROI",
-        "active": {
-            "type": "Boolean",
-            "value": true,
-            "metadata": {}
-        },
-        "area": {
-            "type": "StructuredValue",
-            "value": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            8.772420734,
-                            51.706770521
-                        ],
-                        [
-                            8.772596419,
-                            51.70652037
-                        ],
-                        [
-                            8.773364872,
-                            51.70673063
-                        ],
-                        [
-                            8.773183823,
-                            51.706881884
-                        ],
-                        [
-                            8.772486448,
-                            51.706964159
-                        ],
-                        [
-                            8.772420734,
-                            51.706770521
-                        ]
-                    ]
-                ]
-            },
-            "metadata": {}
-        },
-        "crowdCountObservedId": {
-            "type": "Text",
-            "value": "urn:ngsi-ld:CrowdCountObserved:2f6617eb-b21a-46c2-9121-cdc476f24744",
-            "metadata": {}
-        },
-        "displayName": {
-            "type": "Text",
-            "value": "TEST123",
-            "metadata": {}
-        },
-        "edgeIds": {
-            "type": "StructuredValue",
-            "value": [
-                "urn:ngsi-ld:CrowdFlowObserved:bd20f647-0c72-42e6-940e-4ece00020b9e",
-                "urn:ngsi-ld:CrowdFlowObserved:8674bc40-6177-4b81-bacb-90664d22e7db",
-                "urn:ngsi-ld:CrowdFlowObserved:92421f79-edd9-4c78-bfcf-cade5f8d9f62",
-                "urn:ngsi-ld:CrowdFlowObserved:5237c7fd-90c3-4495-8b21-449ed5c3ab94",
-                "urn:ngsi-ld:CrowdFlowObserved:79e551e9-07d2-47b0-ac1c-d06c1f06a139"
-            ],
-            "metadata": {}
-        },
-        "edgeNames": {
-            "type": "StructuredValue",
-            "value": {
-                "urn:ngsi-ld:CrowdFlowObserved:bd20f647-0c72-42e6-940e-4ece00020b9e": "Weg Eingang",
-                "urn:ngsi-ld:CrowdFlowObserved:8674bc40-6177-4b81-bacb-90664d22e7db": "Weg 3",
-                "urn:ngsi-ld:CrowdFlowObserved:92421f79-edd9-4c78-bfcf-cade5f8d9f62": "Test"
-            },
-            "metadata": {}
-        },
-        "sensorSiteId": {
-            "type": "Text",
-            "value": "urn:ngsi-ld:CrowdFlowSensorSite:3aec9c84-becd-4d64-a3d9-339a0ffdc6fb",
-            "metadata": {}
-        }
+  "id": "urn:ngsi-ld:CrowdFlowROI:eb45985a-758f-4ee0-bcc1-7ba10a83490f",
+  "type": "CrowdFlowROI",
+  "active": {
+    "value": true,
+    "metadata": {}
+  },
+  "area": {
+    "value": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [8.772420734, 51.706770521],
+          [8.772596419, 51.70652037],
+          [8.773364872, 51.70673063],
+          [8.773183823, 51.706881884],
+          [8.772486448, 51.706964159],
+          [8.772420734, 51.706770521]
+        ]
+      ]
     },
+    "metadata": {}
+  },
+  "crowdCountObservedId": {
+    "value": "urn:ngsi-ld:CrowdCountObserved:2f6617eb-b21a-46c2-9121-cdc476f24744",
+    "metadata": {}
+  },
+  "displayName": {
+    "value": "TEST123",
+    "metadata": {}
+  },
+  "edgeIds": {
+    "type": "StructuredValue",
+    "value": [
+      "urn:ngsi-ld:CrowdFlowObserved:bd20f647-0c72-42e6-940e-4ece00020b9e",
+      "urn:ngsi-ld:CrowdFlowObserved:8674bc40-6177-4b81-bacb-90664d22e7db",
+      "urn:ngsi-ld:CrowdFlowObserved:92421f79-edd9-4c78-bfcf-cade5f8d9f62",
+      "urn:ngsi-ld:CrowdFlowObserved:5237c7fd-90c3-4495-8b21-449ed5c3ab94",
+      "urn:ngsi-ld:CrowdFlowObserved:79e551e9-07d2-47b0-ac1c-d06c1f06a139"
+    ],
+    "metadata": {}
+  },
+  "edgeNames": {
+    "type": "StructuredValue",
+    "value": {
+      "urn:ngsi-ld:CrowdFlowObserved:bd20f647-0c72-42e6-940e-4ece00020b9e": "Weg Eingang",
+      "urn:ngsi-ld:CrowdFlowObserved:8674bc40-6177-4b81-bacb-90664d22e7db": "Weg 3",
+      "urn:ngsi-ld:CrowdFlowObserved:92421f79-edd9-4c78-bfcf-cade5f8d9f62": "Test"
+    },
+    "metadata": {}
+  },
+  "sensorSiteId": {
+    "type": "Relationship",
+    "value": "urn:ngsi-ld:CrowdFlowSensorSite:3aec9c84-becd-4d64-a3d9-339a0ffdc6fb",
+    "metadata": {}
+  },
+  "crowdFlowVelocityAlertConfig": {
+    "value": {
+      "peopleRatioThreshold": 30.5,
+      "active": true,
+      "velocityMinThreshold": 1.67,
+      "velocityMaxThreshold": 4.33
+    }
+  },
+  "crowdFlowMotionChangeAlertConfig": {
+    "value": {
+      "sensitivity": 30.5,
+      "active": true
+    }
+  },
+  "crowdFlowMotionPatternAlertConfig": {
+    "value": {
+      "active": true,
+      "pattern": ["LAMINAR", "TURBULENT", "STELLAR", "CIRCULAR"]
+    }
+  },
+  "crowdCountDensityAlertConfig": {
+    "value": {
+      "active": true
+    }
+  }
+}

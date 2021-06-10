@@ -1,14 +1,11 @@
 Entity: CrowdFlowObserved
 =========================
 
-
 [Open License](https://github.com/smart-data-models//dataModel.Transportation/blob/master/CrowdFlowObserved/LICENSE.md)
 
 Global description: **CrowdFlowObserved**
 
-
 ## List of properties
-
 
 - `address`: The mailing address.
 - `alternateName`: An alternative name for this item
@@ -36,12 +33,11 @@ Global description: **CrowdFlowObserved**
 - `source`: A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object.
 - `type`: NGSI Entity type. It has to be CrowdFlowObserved
 
-
 Required properties
+
 - `dateObserved`
 - `id`
 - `type`
-
 
 An observation related to the movement of people at a certain place and time.
 
@@ -367,6 +363,7 @@ CrowdFlowObserved:
     - dateObserved
   type: object
 ```
+
 </details>
 
 ## Example payloads
