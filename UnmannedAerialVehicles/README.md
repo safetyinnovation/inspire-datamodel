@@ -1,3 +1,3 @@
 # Readme
 
-Note: This data model is currently under construction
+This folder contains all data related to UAVs.
