@@ -6,6 +6,7 @@ Data model for the status of an UAV
 
 - `id`: Unique identifier of the entity
 - `type`: NGSI Entity type. It has to be UAVStatus
+- `name`: String. Name of the UAV
 - `location`: The current location, geojson Point with third parameter as height above ground in meters.
 - `homePosition`: Home position of the UAV, geojson Point.
 - `heading`: Number. The heading as degrees clockwise from North
