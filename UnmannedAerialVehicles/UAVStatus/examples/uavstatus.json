@@ -1,0 +1,57 @@
+{
+    "id": "urn:ngsi-ld:UAVStatus:e9c09da2-694f-417d-b786-ff172ad8894d",
+    "type": "UAVStatus",
+    "name": {
+      "value": "Iron Man"
+    },
+    "location": {
+      "type": "geo:json",
+      "value": {
+        "type": "Point",
+        "coordinates": [6.394719, 51.59921, 70]
+      }
+    },
+    "homePosition": {
+      "type": "StructuredValue",
+      "value": {
+          "type": "Point",
+          "coordinates": [
+              8.741234,
+              51.704621
+          ]
+      }
+    },
+    "heading": {
+      "value": 90
+    },
+    "groundSpeed": {
+      "value": 27.9
+    },
+    "verticalSpeed": {
+      "value": 12.3
+    },
+    "flightStatus": {
+      "value": "MISSION"
+    },
+    "isRecordingVideo": {
+      "value": true
+    },
+    "isArmed": {
+      "value": true
+    },
+    "fuel": {
+      "value": 60
+    },
+    "media": {
+      "value": [
+        {
+          "mediaType": "VIDEOSTREAM",
+          "url": "https://url-to-openvidu-room"
+        },
+        {
+          "mediaType": "IMAGE",
+          "url": "https://url-to-image"
+        }
+      ]
+    }
+  }
