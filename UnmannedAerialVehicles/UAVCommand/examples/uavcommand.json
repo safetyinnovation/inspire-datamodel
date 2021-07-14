@@ -1,0 +1,34 @@
+{
+  "id": "urn:ngsi-ld:UAVCommand:6c99ecaa-5cee-4f27-b936-3ccbe8c42d66",
+  "type": "UAVCommand",
+  "command": {
+    "type": "StructuredValue",
+    "value": {
+      "commandName": "FLY_TO_POI",
+      "uavPosition": {
+        "type": "Point",
+        "coordinates": [8.760525885, 51.721910091, 70]
+      }
+    }
+  },
+  "cameraCommand": {
+    "type": "StructuredValue",
+    "value": {
+      "cameraCommandName": "POI" ,
+      "cameraImageMode": "RGB",
+      "cameraPosition": {
+        "type": "Point",
+        "coordinates": [8.760525885, 51.721910091, 70]
+      },
+      "zoomLevel": {
+        "value": 0
+      }
+    }
+  },
+  "cameraRecording":{
+    "value": "ON"
+  },
+  "doSnapshot": {
+    "value": true
+  }
+}
