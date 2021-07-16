@@ -46,11 +46,11 @@
       "value": [
         {
           "mediaType": "VIDEOSTREAM",
-          "url": "https://url-to-openvidu-room"
+          "url": "https://example.com/video"
         },
         {
           "mediaType": "IMAGE",
-          "url": "https://url-to-image"
+          "url": "https://placekitten.com/200/300"
         }
       ]
     }
