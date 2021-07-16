@@ -10,8 +10,8 @@ Data model for the status of an UAV
 - `location`: The current location, geojson Point with third parameter as height above ground in meters.
 - `homePosition`: Home position of the UAV, geojson Point.
 - `heading`: Number. The heading as degrees clockwise from North
-- `groundSpeed`: Number. ground speed of the UAV
-- `vertialSpeed`: Number. vertical speed (positive = climbing, negative=sinking)
+- `groundSpeed`: Number. ground speed of the UAV in m/s
+- `vertialSpeed`: Number. vertical speed in m/s (positive = climbing, negative=sinking)
 - `flightStatus`: Enum. Allowed values `MISSION`, `HOLD`, `MANUAL`, `RETURN`, `LAND`, `TAKEOFF`
 -`isRecordingVideo`: Boolean. truem if the uav's camera is recording a video, false otherwise
 - `isArmed`:  Boolean. false, if the uav can be attended safely. true, if the autopilot is ready. The uav cannot be attended safely.
