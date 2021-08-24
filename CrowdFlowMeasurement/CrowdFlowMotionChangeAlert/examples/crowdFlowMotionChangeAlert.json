@@ -1,6 +1,6 @@
 {
-  "id": "urn:ngsi-ld:CrowdFlowMotionChangeAlert​:eb45985a-758f-4ee0-bcc1-7ba10a83490f",
-  "type": "CrowdFlowMotionChangeAlert​",
+  "id": "urn:ngsi-ld:CrowdFlowMotionChangeAlert:eb45985a-758f-4ee0-bcc1-7ba10a83490f",
+  "type": "CrowdFlowMotionChangeAlert",
   "dateObserved": {
     "type": "DateTime",
     "value": "2021-03-26T09:04:09"
@@ -21,9 +21,10 @@
     }
   },
   "motionChangeSeverity": {
-    "value": "TBD"
+    "value": "HIGH"
   },
   "crowdFlowRoiId": {
-    "value": "TBD"
+    "type": "Relationship",
+    "value": "urn:ngsi-ld:CrowdFlowROI:8f540c70-16d2-460a-bdb6-bc79d679bf73"
   }
 }
