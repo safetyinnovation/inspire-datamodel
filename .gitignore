@@ -38,4 +38,7 @@ Temporary Items
 !.vscode/extensions.json
 *.code-workspace
 
+### intellij ###
+.idea
+
 # End of https://www.toptal.com/developers/gitignore/api/vscode,osx
