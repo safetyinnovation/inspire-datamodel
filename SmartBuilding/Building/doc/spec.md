@@ -7,4 +7,4 @@ Permission may be requested using the [Permission data model](https://github.com
 
 ## Data model
 - `floorPlan`: Text. Url to a floor plan (e.g. a PDF or image)
-- `permission`: StructuredValue. See [Permission data model](https://github.com/inspire-datamodel/SmartBuilding/Permission/docs/spec.md) for value details.
+- `permission`: String. See [Permission data model](https://github.com/inspire-datamodel/SmartBuilding/Permission/docs/spec.md) for value details.

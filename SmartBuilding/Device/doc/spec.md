@@ -47,9 +47,7 @@ The data model is adapted from [Smart data model Device](https://github.com/smar
     - `DENIED`: The new value was rejected due to insufficient permissions
     - `ERROR`: The new value could not be written due to a device error
     - `TIMEOUT`: The new value could not be written due to a device timeout
-    - `WAITING`: The new value will be written after smarthome owner approval
   - `desiredValue`: see value
-
 
 
 - `value`: current status, number, Text (depends on the controlledProperty)

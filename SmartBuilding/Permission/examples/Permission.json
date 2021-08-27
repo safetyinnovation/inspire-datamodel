@@ -11,10 +11,6 @@
     },
     "request": {
         "type": "Permission",
-        "value": {
-            "*": "LIST",
-            "sensor": "READ",
-            "actuator": "WRITE"
-        }
+        "value": "PENDING"
     }
 }
