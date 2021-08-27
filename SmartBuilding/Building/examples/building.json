@@ -32,5 +32,6 @@
     },
     "floorPlan": {
         "value:": "https://storage.inspireprojekt.de/smarthome/"
-    }
+    },
+    "permission":  "GRANTED"
 }

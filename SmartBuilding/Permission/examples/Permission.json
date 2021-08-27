@@ -1,0 +1,16 @@
+{
+    "id": "urn:ngsi-ld:Device:Sensor51433",
+    "type": "Device",
+    "attachedTo": {
+        "type": "StructuredValue",
+        "value": {
+            "attachedToType": "Building",
+            "attachedToId": "urn:ngsi-ld:Building:89c27488-f934-427e-eff9-988ef3dd0da3"
+        },
+        "metadata": {}
+    },
+    "request": {
+        "type": "Permission",
+        "value": "PENDING"
+    }
+}

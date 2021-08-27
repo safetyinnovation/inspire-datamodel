@@ -1,0 +1,36 @@
+{
+  "subscriptionId": "607e7df77c25e580a94d3fa1",
+  "data": [
+    {
+      "id": "urn:ngsi-ld:Device:Actuator1234",
+      "type": "Device",
+      "action": {
+        "desiredValue": "CLOSE",
+        "status": "PENDING"
+      },
+      "attachedTo": {
+        "attachedToType": "Building",
+        "attachedToId": "urn:ngsi-ld:Building:660635b2-eac7-464d-41d9-5d9820daaefb"
+      },
+      "category": [
+        "actuator"
+      ],
+      "controlledProperty": [
+        "door"
+      ],
+      "dateLastValueReported": "2021-04-19T15:31:32.000Z",
+      "description": "Test Actuator1234",
+      "deviceState": "OK",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          10.7485,
+          54.0508
+        ]
+      },
+      "name": "Haustür Test",
+      "source": "Test",
+      "value": "OPEN"
+    }
+  ]
+}
