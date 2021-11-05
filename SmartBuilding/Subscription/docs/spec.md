@@ -6,4 +6,4 @@ The event data model will be used to push events like action requests to devices
 
 - `subscriptionId`: Unique identifier
 
-- `data`: Array of [Device or Building](https://github.com/inspire-datamodel/SmartBuilding/) containing the newly requested action on the device.
+- `data`: Array of [Device or Building](../../) containing the newly requested action on the device.
