@@ -1,0 +1,37 @@
+{
+  "id": "urn:ngsi-ld:LogBookEntry:19ae6d7d-a97f-43e1-8b85-06de67f22de5",
+  "type": "LogBookEntry",
+  "dateIssued": {
+    "type": "DateTime",
+    "value": "2022-01-06T08:01:38.318Z"
+  },
+  "messageType": {
+    "type": "Text",
+    "value": "VEHICLE_STATUS_AT_STATION"
+  },
+  "parameter": {
+    "type": "StructuredValue",
+    "value": [
+      {
+        "name": "oldValue",
+        "value": 6
+      },
+      {
+        "name": "newValue",
+        "value": 2
+      }
+    ]
+  },
+  "receiver": {
+    "type": "Text",
+    "value": "Logbook"
+  },
+  "sender": {
+    "type": "StructuredValue",
+    "value": {
+      "id": "urn:ngsi-ld:EmergencyVehicle:1234",
+      "type": "EmergencyVehicle",
+      "friendlyName": "HLF 20"
+    }
+  }
+}
