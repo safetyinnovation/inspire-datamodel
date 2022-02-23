@@ -16,7 +16,14 @@ Data model for the status of an UAV
 -`isRecordingVideo`: Boolean. truem if the uav's camera is recording a video, false otherwise
 - `isArmed`:  Boolean. false, if the uav can be attended safely. true, if the autopilot is ready. The uav cannot be attended safely.
 - `fuel`: Number. Battery percentage, 0-100
+- `geoFence`: Array of GeoFence elements.
+  - `inclusion`: Is the UAV allowed to fly into the geofence?
+  - `geometry`: GeoJSON-Polygon describing the area
 - `media`: Array of Media elements
   - Format per media element
   - `mediaType`: Enum. Allowed Values `VIDOESTREAM`, `IMAGE`.
   - `url`: Text. The url to the videostream room or to an image
+- `nextWaypoint`: Number. The next waypoint the UAV will fly to.
+- `calculatedFlightPath`: Array of waypint elements.
+  - `waypointNo`: The waypoint number
+  - `geometry`: GeoJSON-Point with `lon, lat, height`

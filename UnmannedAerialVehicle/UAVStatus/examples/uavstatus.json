@@ -1,57 +1,202 @@
 {
-    "id": "urn:ngsi-ld:UAVStatus:e9c09da2-694f-417d-b786-ff172ad8894d",
-    "type": "UAVStatus",
-    "name": {
-      "value": "Iron Man"
-    },
-    "location": {
-      "type": "geo:json",
-      "value": {
-        "type": "Point",
-        "coordinates": [6.394719, 51.59921, 70]
-      }
-    },
-    "homePosition": {
-      "type": "StructuredValue",
-      "value": {
-          "type": "Point",
-          "coordinates": [
-              8.741234,
-              51.704621
-          ]
-      }
-    },
-    "heading": {
-      "value": 90
-    },
-    "groundSpeed": {
-      "value": 27.9
-    },
-    "verticalSpeed": {
-      "value": 12.3
-    },
-    "flightStatus": {
-      "value": "MISSION"
-    },
-    "isRecordingVideo": {
-      "value": true
-    },
-    "isArmed": {
-      "value": true
-    },
-    "fuel": {
-      "value": 60
-    },
-    "media": {
-      "value": [
-        {
-          "mediaType": "VIDEOSTREAM",
-          "url": "https://example.com/video"
-        },
-        {
-          "mediaType": "IMAGE",
-          "url": "https://placekitten.com/200/300"
-        }
+  "id": "urn:ngsi-ld:UAVStatus:e9c09da2-694f-417d-b786-ff172ad8894d",
+  "type": "UAVStatus",
+  "name": {
+    "value": "Iron Man"
+  },
+  "location": {
+    "type": "geo:json",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        6.394719,
+        51.59921,
+        70
       ]
     }
+  },
+  "homePosition": {
+    "type": "StructuredValue",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        8.741234,
+        51.704621
+      ]
+    }
+  },
+  "heading": {
+    "value": 90
+  },
+  "groundSpeed": {
+    "value": 27.9
+  },
+  "verticalSpeed": {
+    "value": 12.3
+  },
+  "flightStatus": {
+    "value": "MISSION"
+  },
+  "isRecordingVideo": {
+    "value": true
+  },
+  "isArmed": {
+    "value": true
+  },
+  "fuel": {
+    "value": 60
+  },
+  "geoFence": {
+    "type": "GeoFence",
+    "value": [
+      {
+        "inclusion": true,
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                8.75537395477295,
+                51.711634477701566
+              ],
+              [
+                8.756918907165527,
+                51.708802427191024
+              ],
+              [
+                8.761532306671143,
+                51.70836364293817
+              ],
+              [
+                8.762390613555908,
+                51.71007886627159
+              ],
+              [
+                8.761918544769287,
+                51.712099821152144
+              ],
+              [
+                8.759536743164062,
+                51.71263163637615
+              ],
+              [
+                8.75537395477295,
+                51.711634477701566
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "inclusion": false,
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                8.754934072494507,
+                51.719112631914655
+              ],
+              [
+                8.754926025867462,
+                51.71877364901477
+              ],
+              [
+                8.755451738834381,
+                51.718698873033006
+              ],
+              [
+                8.75598281621933,
+                51.718708843171044
+              ],
+              [
+                8.756444156169891,
+                51.71875038538927
+              ],
+              [
+                8.756725788116455,
+                51.7188982753763
+              ],
+              [
+                8.756731152534485,
+                51.71907773673349
+              ],
+              [
+                8.756674826145172,
+                51.71925055070055
+              ],
+              [
+                8.754934072494507,
+                51.719112631914655
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "media": {
+    "value": [
+      {
+        "mediaType": "VIDEOSTREAM",
+        "url": "https://example.com/video"
+      },
+      {
+        "mediaType": "IMAGE",
+        "url": "https://placekitten.com/200/300"
+      }
+    ]
+  },
+  "nextWaypoint": {
+    "type": "Number",
+    "value": 2
+  },
+  "calculatedFlightPath": {
+    "value": [
+      {
+        "waypointNo": 0,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6.394719,
+            51.59921,
+            112
+          ]
+        }
+      },
+      {
+        "waypointNo": 1,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.761793,
+            51.690885,
+            27
+          ]
+        }
+      },
+      {
+        "waypointNo": 2,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.754732,
+            51.691876,
+            80
+          ]
+        }
+      },
+      {
+        "waypointNo": 3,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8.743122,
+            51.688799,
+            56
+          ]
+        }
+      }
+    ]
   }
+}
