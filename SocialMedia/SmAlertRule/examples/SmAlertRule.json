@@ -1,0 +1,86 @@
+{
+    "id": "urn:ngsi-ld:SmAlertRule:39fb9cf5-36c2-433e-8d8d-44b6b1697c05",
+    "type": "SmAlertRule",
+    "active": {
+        "type": "Boolean",
+        "value": true,
+        "metadata": {}
+    },
+    "alertConditionOperator": {
+        "type": "Text",
+        "value": "GREATER_THAN",
+        "metadata": {}
+    },
+    "alertConditionType": {
+        "type": "Text",
+        "value": "NUMBER_MENTIONS",
+        "metadata": {}
+    },
+    "alertConditionValue": {
+        "type": "Text",
+        "value": "10",
+        "metadata": {}
+    },
+    "alertRuleId": {
+        "type": "Number",
+        "value": 22,
+        "metadata": {}
+    },
+    "comparisionTimespanUnit": {
+        "type": "Text",
+        "value": "HOUR",
+        "metadata": {}
+    },
+    "comparisionTimespanValue": {
+        "type": "Number",
+        "value": 3,
+        "metadata": {}
+    },
+    "dateLastModified": {
+        "type": "Text",
+        "value": "2022-05-04T07:19:32.082Z",
+        "metadata": {}
+    },
+    "deleted": {
+        "type": "Boolean",
+        "value": false,
+        "metadata": {}
+    },
+    "errorMessage": {
+        "type": "Text",
+        "value": "",
+        "metadata": {}
+    },
+    "intervalTimespanUnit": {
+        "type": "Text",
+        "value": "HOUR",
+        "metadata": {}
+    },
+    "intervalTimespanValue": {
+        "type": "Number",
+        "value": 3,
+        "metadata": {}
+    },
+    "name": {
+        "type": "Text",
+        "value": "Paderborn Alarm2",
+        "metadata": {}
+    },
+    "notificationIntervalUnit": {
+        "type": "Text",
+        "value": "HOUR",
+        "metadata": {}
+    },
+    "notificationIntervalValue": {
+        "type": "Number",
+        "value": 3,
+        "metadata": {}
+    },
+    "searchIds": {
+        "type": "StructuredValue",
+        "value": [
+            306
+        ],
+        "metadata": {}
+    }
+}

@@ -1,6 +1,6 @@
 # SocialMedia
 
-This entity contains a harmonised description of SocialMedia Postings. It has been inspired by  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6387244/
+This entity contains a harmonised description of SocialMedia Postings. It has been inspired by  <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6387244/>
 
 ## Data Model
 
