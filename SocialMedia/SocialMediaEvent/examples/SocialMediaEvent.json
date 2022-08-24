@@ -1,0 +1,41 @@
+{
+    "id": "urn:ngsi-ld:SocialMediaEvent:15",
+    "type": "SocialMediaEvent",
+    "alertRuleName": {
+        "type": "Text",
+        "value": "Sturm ",
+        "metadata": {}
+    },
+    "dateLastAlerted": {
+        "type": "DateTime",
+        "value": "2022-08-21T07:59:19.447Z",
+        "metadata": {}
+    },
+    "searchIds": {
+        "type": "StructuredValue",
+        "value": [
+            269
+        ],
+        "metadata": {}
+    },
+    "searchNames": {
+        "type": "StructuredValue",
+        "value": [
+            "DO_NOT_DELETE_Hochwasser + Unwetter"
+        ],
+        "metadata": {}
+    },
+    "triggeredAlertCondition": {
+        "type": "StructuredValue",
+        "value": {
+            "alertConditionType": "CHANGE_VOLUME_PERCENTAGE",
+            "alertConditionOperator": "GREATER_THAN",
+            "alertConditionValue": 20,
+            "intervalTimespanUnit": "HOUR",
+            "intervalTimespanValue": 24,
+            "comparisionTimespanUnit": "DAY",
+            "comparisionTimespanValue": 30
+        },
+        "metadata": {}
+    }
+}
