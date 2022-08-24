@@ -1,12 +1,12 @@
 # SmAlertRule
 
-This entity contains a harmonised description of Social Media Alert Rule. It allows simple and complex rules, e.g. to compare two timeframes
+This entity contains a harmonised description of the datamodel for SmAlertRule. It allows to define simple and complex rules for social media alerts.
 
 ## Data Model
 
 - `id`
 
-- `type`
+- `type`: SmAlertRule
 
 - `active`: Boolean. If the alert rule is active.
 
